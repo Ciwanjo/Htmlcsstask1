@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/contact.css">
+  <title>DIVE Co., Ltd.</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header clearfix">
+      <a href="index.html">
+        <img src="./images/logo.png" class="logo_image">
+      </a>
+      <nav>
+        <ul class="top_menu clearfix">
+          <li><a href="index.html">home</a></li>
+          <li><a href="#">Business Description</a></li>
+          <li><a href="#">Company Profile</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <img src="./images/TOP.png" class="image_area">
+    <div class="wrapper clearfix">
+      <aside class="side_menu">
+        <nav>
+          <ul>
+            <li><a href="#">Business Description</a></li>
+            <li><a href="#">Company Profile</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+        <p class="banner">
+          <a href="#">
+            <img src="./images/banner.png">
+          </a>
+        </p>
+      </aside>
+      <article class="content">
+     <div class="container-2">
+        <form action="cgi-bin / formmail.cgi" method="post" class="contacts">
+        <table class="table-container">
+          <tr>
+            <td>
+<label>name</label>
+            </td>
+            <td><input type="text" class="one" name="name"></td>
+              </tr>
+              <tr>
+                <td><label>email</label></td>
+                <td><input type="text" name="email"></td>
+                  </tr>
+                  <tr>
+                    <td><label>Sex</label></td>
+                    <td>
+                      <table>
+                      <tr>
+                        <td>
+                          <lable>male</label>
+                            <input type="radio" id="radio-button1" name="sex" value="male">
+                          <label id="female"> female</label>
+                          <input type="radio" id="radio-button2" name="sex" value="female">
+                        </td>
+                      </tr>
+                      </table>
+                      </td>
+                      </tr>
+                      <tr>
+                        <td><label id="inquiry">content of inquiry</label></td>
+                        <td><input type="textarea" id="inquiry-2" name="content of inquiry"></td>
+                        </tr>
+                          <tr>
+                            <td colspan="2"><input type="submit" id="button" value="send"></td>
+                          </tr>
+          </table>
+                </form>
+              </div>
+      </article>
+    </div>
+    <footer class="footer">
+      <p>Copyright © 2018 DIVE INC All RIGHTS RESERVED.</p>
+    </footer>
+  </div>
+</body>
+</html>

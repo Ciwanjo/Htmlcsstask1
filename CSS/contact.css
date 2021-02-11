@@ -1,0 +1,42 @@
+.contacts {
+height: 80%;
+  }
+  input[type=text] {
+    height: 10px;
+    border-radius: 1px;
+  }
+
+input {
+  width: 480px;
+    }
+#button {
+  width: 50px;
+  background-color: #0C9CE5;
+  color: white;
+  border: 0px;
+  padding: 4px;
+  margin-left: 280px;
+  }
+.container-2 {
+    height: 350px;
+}
+#inquiry {
+  width: 150px;
+  height: 20rem;
+}
+#inquiry-2 {
+    height: 30px;
+    border-radius: 1px;
+}
+.table-container {
+  height: 100%;
+}
+#radio-button1 {
+  margin-left: -38%;
+  }
+  #radio-button2 {
+    margin-left: -38%;
+    }
+    #female {
+      margin-left: -35%;
+    }
